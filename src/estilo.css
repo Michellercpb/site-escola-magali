@@ -1,0 +1,190 @@
+*{
+    background-color: rgb(226, 241, 166)
+}
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1,900 & display=swap');
+:root{
+    --pretofundo:var(--pretofundo)
+    --titulo: #e6e4e4
+    --texto: #cccccc
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+    text-decoration: none;
+    color: var(--texto);
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--pretofundo);
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+.cabecalho__logo {
+    height: 60%;
+}
+.cabecalho__menu a{
+    color: var(--texto);
+    font-size: 1.1rem;
+    padding: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.cabecalho__menu a:hover{
+transform: translateY(-5px);
+color: rgb(0, 179, 255);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70vh;
+}
+#sobre h1 {
+color: var(--titulo);
+text-align: center;
+margin-bottom: 30px;
+}
+.sobre__texto {
+    /* height: 30px; */
+    width: 30%;
+    text-align: justify;/*alinhar o texto*/
+    line-height: 1.5;/*altura da linha, espaçamento entre linhas*/
+    font-size: 1.2em;
+
+}
+.sobre__fachada{
+    width: 50%;
+}
+
+.salas {
+    color: var(--titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sobre__texto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.sobre__escola{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.card{
+    border: 1px solid rgba(11, 11, 11, 0.538);
+    padding: 1em;
+    width: 20%;
+    height: 5em;
+    border-radius: 1em;
+    margin-bottom: 10em;
+
+}
+.card p{
+    text-align: justify;
+    font-size: 1em;
+}
+.containertres {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.valores__container{
+    
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; */
+    /* flex-wrap: wrap; */
+    
+}
+.valores__container h2{
+    text-align: center;
+    padding: 2em;
+}
+.valores__container p{
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    line-height: 1.5;
+}
+.valores__container ul{
+    width: 80%;
+    margin: auto;
+   
+    
+}
+.valores__container ul li{
+    line-height: 1.5;
+    padding: .5em 0;
+}
+#localizacao{
+    margin-top: 13em;
+}
+#localizacao h3{
+    color: var(--titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.localizacao {
+    color: var(--titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contato h2 {
+    color: var(--titulo);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contato {
+    color: var(--titulo);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.endereco {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+form{
+    display: block;
+    width: 80%;
+    margin: auto;
+}
+label, input, textarea{
+    display: block;
+   
+}
+.rodape {
+padding: 1.5em;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
